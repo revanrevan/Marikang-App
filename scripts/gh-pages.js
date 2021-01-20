@@ -1,13 +1,13 @@
 const ghpages = require('gh-pages');
 
 ghpages.publish(
-    '__sapper__/export/<your-app-name>',
+    '__sapper__/export/Marikang/project',
     {
         branch: 'master',
-        repo: 'https://github.com/<your-github-username>/<your-repo-name>.git',
+        repo: 'https://github.com/revanrevan/Marikang-app.git',
         user: {
-            name: '<your-github-username>',
-            email: '<your-github-email>'
+            name: 'revanrevan',
+            email: 'revainblue21@gmail.com'
         }
     },
     () => {
